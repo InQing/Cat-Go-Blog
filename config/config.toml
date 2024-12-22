@@ -1,0 +1,21 @@
+[viewer]
+    Title = "黑猫Go语言博客"
+    Description = "黑猫Go语言博客"
+    Logo = "/resource/images/logo.png"
+    Navigation = ["首页","/", "GO语言","/golang", "归档","/pigeonhole", "关于","/about"]
+    Bilibili = "https://space.bilibili.com/24050689"
+    Zhihu = "https://www.zhihu.com/people/ma-shen-zhi-lu"
+    Avatar = "/resource/images/cat1.jpg"
+    UserName = "黑猫"
+    UserDesc = "一只非常可爱且帅气的小黑猫"
+[system]
+    CdnURL = "https://static.mszlu.com/goblog/es6/md-assets"
+    QiniuAccessKey = "替换自己的"
+    QiniuSecretKey = "替换自己的"
+    Valine = true
+    ValineAppid = "jV0Fm3DHcMdIqdlpeSi6ZHv0-gzGzoHsz"
+    ValineAppkey = "01KV1shj4o11PjIJ8DpPr6wf"
+    ValineServerURL = "https://jv0fm3dh.lc-cn-n1-shared.com"
+[server]
+    ip = "127.0.0.1"
+    port = "8080"
