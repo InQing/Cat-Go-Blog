@@ -17,6 +17,7 @@ func (*CatServer) Start(ip, port string) {
 	}
 	//路由
 	router.Router()
+	log.Println("Server start on", ip, ":", port)
 	if err := server.ListenAndServe(); err != nil {
 		log.Println(err)
 	}

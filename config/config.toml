@@ -1,7 +1,7 @@
 [viewer]
     Title = "黑猫Go语言博客"
     Description = "黑猫Go语言博客"
-    Logo = "/resource/images/logo.png"
+    Logo = "/resource/images/dog1.jpg"
     Navigation = ["首页","/", "GO语言","/golang", "归档","/pigeonhole", "关于","/about"]
     Bilibili = "https://space.bilibili.com/24050689"
     Zhihu = "https://www.zhihu.com/people/ma-shen-zhi-lu"
