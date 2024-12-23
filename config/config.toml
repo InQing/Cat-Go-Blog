@@ -10,12 +10,12 @@
     UserDesc = "一只非常可爱且帅气的小黑猫"
 [system]
     CdnURL = "https://static.mszlu.com/goblog/es6/md-assets"
-    QiniuAccessKey = "替换自己的"
-    QiniuSecretKey = "替换自己的"
+    QiniuAccessKey = "mGzsN190NSo21ExM1wwnOGGr9CV_bm-Ke2pS-wqy"
+    QiniuSecretKey = "nLIBlEp9Vr_VABNrPMgvFWicu_ejtmlq3Lg3z822"
     Valine = true
     ValineAppid = "jV0Fm3DHcMdIqdlpeSi6ZHv0-gzGzoHsz"
     ValineAppkey = "01KV1shj4o11PjIJ8DpPr6wf"
     ValineServerURL = "https://jv0fm3dh.lc-cn-n1-shared.com"
 [server]
-    ip = "127.0.0.1"
+    ip = "0.0.0.0"
     port = "8080"

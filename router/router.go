@@ -38,4 +38,6 @@ func Router(){
 	http.HandleFunc("/api/v1/post/",api.Api.GetPost)
 	// 搜索
 	http.HandleFunc("/api/v1/post/search",api.Api.SearchPost)
+	// 上传图片
+	http.HandleFunc("/api/v1/qiniu/token", api.Api.QiniuToken)
 }

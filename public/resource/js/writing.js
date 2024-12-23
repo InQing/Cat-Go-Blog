@@ -49,7 +49,7 @@ function uploadImage(file, cb) {
     success: function (res) {
       if (res.code !== 200) return alert(res.error);
       const token = res.data;
-      const observable = qiniu.upload(file, "goblog/upload/"+Date.now() + "_" + file.name, token, putExtra, config)
+      const observable = qiniu.upload(file, "cat-go-blog/upload/"+Date.now() + "_" + file.name, token, putExtra, config)
       const observer = {
         next(res){
           // ...
@@ -59,7 +59,7 @@ function uploadImage(file, cb) {
         },
         complete(res){
           console.log(res)
-          cb("https://static.mszlu.com/" + res.key)
+          cb("http://soxh2g2ub.hb-bkt.clouddn.com/" + res.key)
         }
       }
       const subscription = observable.subscribe(observer) // 上传开始
